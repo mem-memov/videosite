@@ -1,0 +1,41 @@
+video {
+    width: 100%;
+}
+*,body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+.video-player-container {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+	position: relative;
+}
+.video-player-container .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.50;
+	filter: alpha(opacity=50); /* For IE8 and earlier */
+	background-color: black;
+}
+.video-player-container .overlay .title {
+	position: absolute;
+	top: 40%;
+	color: white;
+	text-align: center;
+	font-size: 40pt;
+    cursor: default;
+    cursor: default;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
